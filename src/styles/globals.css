@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background: linear-gradient(297.79deg, #F9FBFF -8.83%, #FFFFFF 97.56%); */
+  /* border: 1px solid; */
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 0 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.homeBanner,
+.whoWeAre {
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px light #217BF4;
+}
+
+.navLogo {
+  display: flex;
+  gap: 1rem;
+}
+
+.logoText {
+  color: linear-gradient(192.7deg, #152A47 14.55%, #032555 91.2%);
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.navMainBtn {
+  display: flex;
+}
+
+.navBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EB5757;
+  border-radius: 10px;
+  color: #FFFFFF;
+  padding: 0.5rem;
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.8rem;
+}
+
+.bannerText {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  gap: 1.5rem;
+}
+
+.bannerImage {
+  flex: 1.5;
+  border: 1px solid;
+  display: flex;
+  justify-content: flex-end;
+  /* margin-left: 0; */
+
+}
+
+.bannerTitle,
+.experienceTitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: #EB5757;
+  letter-spacing: 0.03em;
+  line-height: 12px;
+}
+
+.bannerCaption {
+  color: #152A47;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+}
+
+.bannerDetails {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.03rem;
+  color: #3A3A3A;
+}
+
+.bannerBtnContainer {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.bannerBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 10rem;
+
+}
+
+.darkBtn {
+  background: linear-gradient(192.7deg, #152A47 14.55%, #032555 91.2%);
+  box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+  color: #FFFFFF;
+  border: 1px solid #ffff;
+}
+
+.lightBtn {
+  background: linear-gradient(297.79deg, #F9FBFF -8.83%, #FFFFFF 97.56%);
+  border: 1px solid #032555;
+}
+
+.whoWeAre>.experience {
+  display: flex;
+  gap: 10rem;
+  /* justify-content: space-between; */
+}
+
+.experienceImage {
+  flex: 3;
+}
+
+.experienceText {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  gap: 1rem;
+}
+
+.experienceDetails {
+  width: 30rem;
+  line-height: 30.5px;
+  word-wrap: break-word;
+}
+
+.experienceCaption,.whyHireUsCaption {
+  color: #0A093D;
+  font-weight: 700;
+  font-size: 36px;
+  width: 30rem;
+}
+
+.experienceQualityContainer {
+  justify-content: space-between;
+  display: flex;
+  /* gap:8rem; */
+  padding: 1rem 5rem;
+  /* border: 1px solid; */
+}
+
+.experienceQuality {
+  background: #FFFFFF;
+  box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+  border-radius: 10px;
+  width: 25rem;
+  height: 12rem;
+  padding: 1rem;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.experienceQuality>.header {
+  display: flex;
+  gap: 1rem;
+}
+
+.experienceQuality>.header>.text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.experienceQuality>.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experienceQuality>.body>.text {
+  font-weight: 400;
+  font-size: 17px;
+  width: 15rem;
+  line-height: 28.5px;
+  word-wrap: break-word;
+}
+
+.successfulStartup {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 5rem;
+  gap: 2rem;
+  background: #F8F9FF;
+}
+
+.successfulStartupText {
+  background: #F8F9FF;
+  color: linear-gradient(192.7deg, #152A47 14.55%, #032555 91.2%);
+  line-height: 54px;
+  letter-spacing: -0.03em;
+}
+
+.successfulStartupImages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F8F9FF;
+}
+
+.startupLogo {}
+
+.ourService,.whyHireUsSection {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 5rem;
+  gap: 4rem;
+  background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+
+.ourServiceText {
+  background: none;
+  text-align: center;
+  color: linear-gradient(192.7deg, #152A47 14.55%, #032555 91.2%);
+  line-height: 54px;
+  letter-spacing: -0.03em;
+
+}
+
+.ourServiceGrid {
+  /* display: grid;
+  column-gap: 8rem;
+  row-gap: 2rem;
+  grid-template-columns: auto auto auto; */
+  display: grid;
+  gap: 50px 50px;
+  grid-template-columns: auto auto auto;
+  background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+  padding: 2rem;
+
+}
+
+.ourServiceBox {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background: #FFFFFF;
+  box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+  padding: 2rem;
+  height: 20rem;
+  border-radius: 1rem;
+}
+
+.ourServiceBoxContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: #FFFFFF;
+  flex: 1;
+  height: 12rem;
+}
+
+.ourServiceBoxText {
+  color: #2F2C4A;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.ourServiceBoxDetails{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px; 
+}
+
+.ourServiceBoxLink{
+  flex: 1;
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 18px;
+  /* padding: 1rem; */
+  color: linear-gradient(192.7deg, #0066FF 14.55%, #7000FF 91.2%);
+}
+
+.whyHireUsSection{
+  background: none;
+  gap:2rem
+}
+
+.whyHireUs{
+  display: flex;
+  gap: 3rem;
+}
+.whyHireUsContent{
+  display: flex;
+  flex-direction: column;
+}
