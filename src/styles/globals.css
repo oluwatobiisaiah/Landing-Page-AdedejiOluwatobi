@@ -2,9 +2,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* background: linear-gradient(297.79deg, #F9FBFF -8.83%, #FFFFFF 97.56%); */
-  /* border: 1px solid; */
+  font-family: 'Poppins'
+    /* background: linear-gradient(297.79deg, #F9FBFF -8.83%, #FFFFFF 97.56%); */
+    /* border: 1px solid; */
 }
 
 html,
@@ -102,7 +102,8 @@ body {
 }
 
 .bannerTitle,
-.experienceTitle {
+.experienceTitle,
+.joinOurTeamTitle {
   font-weight: 600;
   font-size: 18px;
   color: #EB5757;
@@ -155,6 +156,21 @@ body {
   border: 1px solid #032555;
 }
 
+.darkBtn:hover {
+  background: linear-gradient(297.79deg, #F9FBFF -8.83%, #FFFFFF 97.56%);
+  color: #0A093D;
+  border: 1px solid #032555;
+
+}
+
+.lightBtn:hover {
+  background: linear-gradient(192.7deg, #152A47 14.55%, #032555 91.2%);
+  border: 1px solid #ffff;
+  color: #FFFFFF;
+
+
+}
+
 .whoWeAre>.experience {
   display: flex;
   gap: 10rem;
@@ -172,13 +188,16 @@ body {
   gap: 1rem;
 }
 
-.experienceDetails {
+.experienceDetails,
+.whyHireUsDetails {
   width: 30rem;
   line-height: 30.5px;
   word-wrap: break-word;
 }
 
-.experienceCaption,.whyHireUsCaption {
+.experienceCaption,
+.whyHireUsCaption,
+.joinOurTeamCaption {
   color: #0A093D;
   font-weight: 700;
   font-size: 36px;
@@ -253,7 +272,8 @@ body {
 
 .startupLogo {}
 
-.ourService,.whyHireUsSection {
+.ourService,
+.whyHireUsSection {
   display: flex;
   flex-direction: column;
   padding: 1rem 5rem;
@@ -310,13 +330,13 @@ body {
   line-height: 26px;
 }
 
-.ourServiceBoxDetails{
+.ourServiceBoxDetails {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 27px; 
+  /* font-size: 18px; */
+  line-height: 27px;
 }
 
-.ourServiceBoxLink{
+.ourServiceBoxLink {
   flex: 1;
   text-decoration: none;
   display: flex;
@@ -327,16 +347,93 @@ body {
   color: linear-gradient(192.7deg, #0066FF 14.55%, #7000FF 91.2%);
 }
 
-.whyHireUsSection{
+.whyHireUsSection {
   background: none;
-  gap:2rem
+  gap: 2rem
 }
 
-.whyHireUs{
+.whyHireUs {
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.whyHireUsContent {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  gap: 1rem
+    /* flex: 1; */
+}
+
+.whyHireUsImage {
+  /* flex: 1.2; */
+}
+
+.whyHireUsDetails {}
+
+.footSection {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.joinOurTeam {
+  background: #FFFCF5;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+.joinOurTeamDetails {
+  line-height: 25px;
+}
+
+.joinOurTeamBtn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 10rem;
+  gap: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(192.7deg, #152A47 14.55%, #032555 91.2%);
+  padding: 5.5rem 3rem 3rem 3rem;
+  color: #6B7280;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+
+}
+
+.footerMain {
+  border-bottom: 0.5px solid #F1F6FD;
   display: flex;
   gap: 3rem;
 }
-.whyHireUsContent{
+
+.leftFooter {
+  flex: 0.8;
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
+  /* background: #FFFCF5; */
+}
+
+.rightFooter {
+  flex: 2;
+}
+.socialMediaLinks{
+  display: flex;
+  gap: 0.5rem;
 }
