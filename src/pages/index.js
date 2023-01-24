@@ -35,7 +35,11 @@ export default function Home() {
           <section className='whoWeAre'>
            <OurExperence/>
            <ExperienceQuality/>
-           <SuccesfulStartup/>
+          </section>
+          
+          <section>
+          <SuccesfulStartup/>
+
           </section>
 
           <section className='ourServiceSection'>

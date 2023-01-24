@@ -1,0 +1,168 @@
+.hireUs {
+    display: flex;
+    flex-direction: column;
+}
+
+.hireUsStep {
+    display: flex;
+    /* padding: 3rem 0rem; */
+}
+
+.hireUsLeft {
+    flex: 1;
+    background: #F2F6FD;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hireUsRight {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    padding-bottom: 0;
+    gap: 2rem;
+}
+
+.hireUsTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: linear-gradient(192.7deg, #152A47 14.55%, #032555 91.2%);
+
+}
+
+.hireUsTitle>h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 54px;
+}
+
+.hireUsTitle>span {
+    text-align: center;
+
+}
+
+.hireUsRightTitle {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    color: linear-gradient(192.7deg, #152A47 14.55%, #032555 91.2%);
+    width: 70%;
+}
+
+.progress {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.progressCaption {
+    color: #656464;
+}
+
+.hireUsProgressBar {
+    width: 90%;
+    accent-color: #032555;
+    /* color: #D9E7FF; */
+}
+
+.hireUsForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hireUsFormField {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hireUsFormFieldTitle {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background: linear-gradient(192.7deg, #152A47 14.55%, #032555 91.2%);
+    border-radius: 50%;
+
+}
+
+.dotLight {
+    background: #A6C5F1;
+}
+
+.optionFieldColTwo {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+.optionCard {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 1rem;
+    background: #FFFFFF;
+    border: 0.7px solid #C0C0C0;
+    border-radius: 5px;
+}
+
+.optionCard:hover {
+    background: linear-gradient(192.7deg, #152A47 14.55%, #032555 91.2%);
+    color: #FFFFFF;
+}
+
+.optionFieldCol {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.optionFieldCol>textarea {
+    flex: 1;
+    height: 7rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+}
+
+.hireUsNavBtn {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+}
+
+.hireUsFormCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.completedText {
+    width: 50%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+}
+.hireUsFormCenter > .bannerBtn{
+    margin-top: 3rem;
+    border: 1px solid red;
+}

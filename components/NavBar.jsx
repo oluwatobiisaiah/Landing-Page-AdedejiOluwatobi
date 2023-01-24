@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function NavBar() {
@@ -23,7 +24,7 @@ export default function NavBar() {
             </div>
 
             <div className="navMainBtn">
-              <span className='navBtn'>Hire Developers</span>
+              <Link className='navBtn' href='hire-us'>Hire Developers</Link>
             </div>
         </div>
     )
