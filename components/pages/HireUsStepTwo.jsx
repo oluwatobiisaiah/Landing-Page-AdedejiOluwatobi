@@ -32,7 +32,7 @@ export default function HireUsStepTwo() {
           <div className={styles.hireUsFormField}>
             <div className={styles.hireUsFormFieldTitle}>
               <span className={styles.dot}></span>
-              <span>What can <b>Hack City Tech</b> do for you?</span>
+              <span>What is the Application/Product Domain ?</span>
             </div>
 
             <div className={styles.optionFieldColTwo}>

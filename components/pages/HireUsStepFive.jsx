@@ -48,7 +48,7 @@ export default function HireUsStepFive() {
           <div className={styles.hireUsFormField}>
             <div className={styles.hireUsFormFieldTitle}>
               <span className={styles.dot}></span>
-              <span>What can <b>Hack City Tech</b> do for you?</span>
+              <span>Other Information</span>
             </div>
 
             <div className={styles.optionFieldCol}>
@@ -59,7 +59,7 @@ export default function HireUsStepFive() {
           </div>
           <div className={styles.hireUsNavBtn}>
             <a href='#' className='bannerBtn lightBtn' onClick={()=>usePreviousBtn(navigationDispatch)}><AiOutlineArrowLeft /> Previous</a>
-            <a href='#' className='bannerBtn darkBtn' onClick={()=>useNextBtn(navigationDispatch)}>Next <AiOutlineArrowRight /> </a>
+            <a href='#' className='bannerBtn darkBtn' onClick={()=>useNextBtn(navigationDispatch)}>Submit <AiOutlineArrowRight /> </a>
           </div>
 
 

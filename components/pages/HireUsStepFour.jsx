@@ -29,36 +29,22 @@ export default function HireUsStepFour() {
         </div>
 
         <div className={styles.hireUsForm}>
-          <div className={styles.hireUsFormField}>
+        <div className={styles.hireUsFormField}>
             <div className={styles.hireUsFormFieldTitle}>
               <span className={styles.dot}></span>
-              <span>What can <b>Hack City Tech</b> do for you?</span>
-            </div>
-
-            <div className={styles.optionFieldColTwo}>
-              <OptionCard />
-              <OptionCard />
-              <OptionCard />
-              <OptionCard />
-              <OptionCard />
-
-
-            </div>
-          </div>
-          <div className={styles.hireUsFormField}>
-            <div className={styles.hireUsFormFieldTitle}>
-              <span className={styles.dot}></span>
-              <span>What can <b>Hack City Tech</b> do for you?</span>
+              <span>What is the price estimate for the project ?</span>
             </div>
 
             <div className={styles.optionFieldCol}>
-              <textarea />
-
+              <OptionCard />
+              <OptionCard />
+              <OptionCard />
+              <OptionCard />
             </div>
-
           </div>
+      
           <div className={styles.hireUsNavBtn}>
-            <a href='#' className='bannerBtn lightBtn' onClick={()=>usePreviousBtn(navigationDispatch)}><AiOutlineArrowLeft /> Submit</a>
+            <a href='#' className='bannerBtn lightBtn' onClick={()=>usePreviousBtn(navigationDispatch)}><AiOutlineArrowLeft /> Previous</a>
             <a href='#' className='bannerBtn darkBtn' onClick={()=>useNextBtn(navigationDispatch)}>Next <AiOutlineArrowRight /> </a>
           </div>
 
